@@ -45,4 +45,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/sprint12:${{ github.ref_name }}
+          tags: okeanilya/sprint12:${{ github.ref_name }}
